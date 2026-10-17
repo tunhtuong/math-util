@@ -12,7 +12,7 @@ public class MathUtil {
         if (n == 0){
             return 1;
         }
-        long result = 10; //code co tinh tao bug  giai thua nhan  them 10
+        long result = 1; //code co tinh tao bug  giai thua nhan  them 10
         for (int i = 1; i <= n; i++){
             result *= i;
         }
